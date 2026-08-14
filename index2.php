@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<style> 
+  body{
+    background-color: aqua;
+  }
+</style>
+<body>
+    <div class="container">
+        <div><h1 align="center">My Profil</h1></div>
+
+        <div><nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">my profile</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">portofolio</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+       
+        <button class="btn btn-outline-success" type="submit">login</button>
+      </form>
+      
+    </div>
+  </div>
+</nav>
+</div>
+
+
+        <div>
+            <div class="d-flex flex-row mb-2 row-cols-3">
+               <div>
+                  <div class="p-2">artikel 1</div>
+
+                     <div class="card" style="width: 18rem;">
+                         <img src="uia.webp" class="card-img-top" alt="...">
+                           <div class="card-body">
+                             <h5 class="card-title">uia cat</h5>
+                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                             <a href="#" class="btn btn-primary">Go somewhere</a>
+                           </div>
+                     </div>
+               </div>
+               
+               <div>
+                  <div class="p-2">artikel 2</div>
+                     <div class="card" style="width:18rem;">
+                         <img src="uia.webp" class="card-img-top" alt="...">
+                           <div class="card-body">
+                             <h5 class="card-title">uia cat</h5>
+                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                             <a href="#" class="btn btn-primary">Go somewhere</a>
+                           </div>
+                     </div>
+               </div>
+
+               <div>
+                <h3 style="margin-top:40px;">Topik Hari Ini</h3>
+                <ul class="list-group" style="margin-top:40px;">
+                  <li class="list-group-item">An item</li>
+                  <li class="list-group-item">A second item</li>
+                  <li class="list-group-item">A third item</li>
+                  <li class="list-group-item">A fourth item</li>
+                  <li class="list-group-item">And a fifth one</li>
+                </ul>
+               </div>
+
+            </div>
+        </div>
+
+
+        <div>
+            ini futer
+        </div>
+    </div>
+    
+</body>
+</html>
